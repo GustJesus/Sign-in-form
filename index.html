@@ -11,40 +11,45 @@
 </head>
 
 <body>
-    <h1>estudo html </h1>
-    <h2>estudo html</h2>
-    <h3>estudo httml</h3>
-    <h4>estudo html</h4>
-
-    <!--quebre de linha automatica -->
-    <p>um <span class='bold'> texto </span> aqui</p>
-    <p>um texto aqui</p>
-
-    <!--não quebra a linha-->
-    <span id="my-title"> um texto aqui</span>
-    <span>um texto aqui</span>
-    <hr>
-
-    <ul>
-        <li>home </li>
-        <li>quem somos</li>
-        <li>contato</li>
-    </ul>
     
-    <a href="www.google.com">clique aqui</a>
-    <hr>
-    <img src='https://uploads.spiritfanfiction.com/historias/capitulos/202105/imagine-heejin-22368446-250520212356.png'>
-    
-<hr>
-
-    <div class="container">
-        <h1>meu título</h1>
+    <div class="form-container">
+        <form>
+            <h3>Sign In</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Username">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+            <div class="options-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                </div><a href="http://google.com">Reset Password</a>
+            </div>
+            <input type="submit" value="Sign In">
+            <p>or Sign in with</p>
+            <div class="social-media-container">
+                <div class="icon-container">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="twitter"></i>
+                </div>
+            </div>
+            <hr>
+            <p class="footer">Do not have an account? <a href="http://google.com">Sign Up now</a></p>
+        </form>
     </div>
-
-    <i data-feather="archive"></i>
 
     <script>
         feather.replace()
-     </script>
+    </script>
 </body>
+
 </html>
